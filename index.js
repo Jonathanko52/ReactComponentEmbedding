@@ -15,11 +15,15 @@ class Parent extends React.Component {
     render () {
         return(
             <div>
+                <h1>Parent</h1>
+                <br></br>
                 <Child1/>
+                <br></br>
+
                 <Child2/>
             </div>
         )
     }
 }
 
-ReactDOM.render(<App/>, document.getElementById("scotttt"));
+ReactDOM.render(<Parent/>, document.getElementById("parent"));

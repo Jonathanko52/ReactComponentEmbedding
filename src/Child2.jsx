@@ -1,8 +1,10 @@
+import React from "react";
+
 const Child2 = (props) =>{
 
 
     return(
-        <h1>Child2</h1>
+        <h3>Child2</h3>
     )
 }
 
